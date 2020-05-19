@@ -1,0 +1,101 @@
+body{
+    background-color: #f4f4f4;
+    font-family: 'Exo', sans-serif;
+}
+
+.bg-navbar-first{
+    background: rgb(141, 89, 0);
+    background: linear-gradient(90deg, rgb(141, 89, 0) 0%, rgb(0, 107, 14) 50%, rgb(141, 89, 0) 100%);  
+}
+
+.bg-navbar-second{
+    background: rgb(203,129,2);
+    background: linear-gradient(90deg, rgba(203,129,2,1) 0%, rgba(1,146,20,1) 50%, rgba(203,129,2,1) 100%);  
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.header-info{
+    background: #ffffff;
+    border-radius: 0 0 40px 40px;
+    height: 130px;
+    box-shadow: 0 5px rgba(1,146,20,1);
+}
+
+.page-title{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.share span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.border-green{
+    border: 1px rgba(1,146,20,1) solid ;
+}
+
+.bg-green{
+    background:rgba(1,146,20,1);
+    color: #ffffff;
+    font-weight: bold;
+}
+.card-body{
+    font-size: 14px;
+}
+
+.left-border{
+    border-left: 7px rgba(1,146,20,1) solid;
+}
+
+.pagination>li.active>a{
+    background-color:rgba(1,146,20,1)!important;
+    border-color: rgba(1,146,20,1)!important;
+}
+
+.post-title:hover{
+    text-decoration: none;
+    background-color: #000;
+}
+
+.post{
+    transition: transform .4s;
+}
+
+.post:hover{
+    transform: scale(1.03);
+}
+
+.page .card-body{
+    font-size: 16px!important;
+}
+
+@media (min-with:768 px){
+    .container-small{
+        width: 300px;
+    }
+}
+
+@media (min-with:992 px){
+    .container-small{
+        width: 500px;
+    }
+}
+
+@media (min-with:1200px){
+    .container-small{
+        width: 500px;
+    }
+}
+
+.container-small{
+    max-width: 100%;
+}
